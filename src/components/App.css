@@ -1,0 +1,15 @@
+.img-fluid{
+    animation: rotate 10s linear infinite forwards;
+    width: 50px;
+}
+
+.img-fluid:hover{
+    animation: rotate 2s ease infinite forwards;
+    width: 50px;
+}
+
+@keyframes rotate {
+    to {
+        rotate: 360deg;
+    }
+}
